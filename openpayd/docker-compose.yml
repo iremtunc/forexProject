@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  forexapp:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - FIXER_API_KEY=95e22b9dfe0f00c0a40e9b0428904313
